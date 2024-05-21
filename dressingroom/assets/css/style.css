@@ -52,6 +52,7 @@
   width: 250px;
   height: 500px;
   background: url("./../images/allbody/bikini_branew.png");
+  background-size: cover !important;
   position: absolute;
   top: 12%;
   left: 22%;
@@ -62,6 +63,7 @@
   width: 250px;
   height: 500px;
   background: url("./../images/allbody/bikini_pantsnew.png");
+  background-size: cover !important;
   position: absolute;
   top: 12%;
   left: 22%;
@@ -122,9 +124,9 @@
 .background {
   width: 900px;
   height: 1500px;
-  background-image: url(./../images/background/background1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(./../images/background/background1.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
   position: absolute;
   bottom: -90%;
   right: -50%;
